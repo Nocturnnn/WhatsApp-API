@@ -196,3 +196,10 @@
     );
   }
 }
+
+/* CSS media query dentro de um stylesheet */
+@media (max-width: 600px) {
+  #hidden-mobile {
+    display: none;
+  }
+}
